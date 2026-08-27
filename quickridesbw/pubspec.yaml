@@ -1,0 +1,21 @@
+name: quickrides_bw
+description: QuickRidesBW Botswana ride-hailing app starter.
+publish_to: 'none'
+version: 0.4.1+5
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.8.0
+  google_maps_flutter: ^2.10.0
+  geolocator: ^13.0.2
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
