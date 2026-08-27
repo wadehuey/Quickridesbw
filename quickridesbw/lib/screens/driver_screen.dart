@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class DriverScreen extends StatelessWidget{const DriverScreen({super.key});@override Widget build(BuildContext c)=>Scaffold(appBar:AppBar(title:const Text('Driver mode')),body:ListView(padding:const EdgeInsets.all(20),children:[SwitchListTile(value:false,onChanged:(_){},title:const Text('Go online'),subtitle:const Text('Receive nearby ride requests')),const ListTile(leading:Icon(Icons.local_car_wash),title:Text('Car wash benefit')),const ListTile(leading:Icon(Icons.water_drop),title:Text('Driver water benefit'))]));}}
